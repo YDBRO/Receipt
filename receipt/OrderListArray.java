@@ -11,15 +11,16 @@ public class OrderListArray {
 	
 
 
-	public OrderListArray(int no, String name, int price, int count, int total) {
-		// TODO Auto-generated constructor stub
-		this.no = no;
-    	this.name = name;
-		this.price = price;
-		this.price = price;
-		this.count = count;
-		this.total = total;
-	}	}
+//	public OrderListArray(int no, String name, int price, int count, int total) {
+//	
+//		this.no = no;
+//    	this.name = name;
+//		this.price = price;
+//		this.price = price;
+//		this.count = count;
+//		this.total = total;
+//	}
+	}
 
 
 

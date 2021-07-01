@@ -18,7 +18,7 @@ public class MainClass {
 
 		while(true) {
 
-			OrderListArray item = new OrderListArray(0,null,0,0,0);	
+			OrderListArray item = new OrderListArray();	
 			listOr.OrderList(inputOr,item);
 
 			orderList.add(item);

@@ -10,7 +10,7 @@ public class ExchangeMain {
 
 	public static void main(String[] args) {
 		int count = 0;
-		int inputNo;
+		int inputNo = 0;
 		int totalPrice = 0;
 		Scanner scan = new Scanner(System.in);
 		ArrayList<OrderListArray> orderList = new ArrayList<OrderListArray>();
@@ -34,7 +34,7 @@ public class ExchangeMain {
 		     
 		     if (rset.next()) { 
 		          //결과물 처리 
-		    	 System.out.printf("%d %s %d원 %s\n", rset.getInt(1),rset.getString(2),rset.getInt(3),rset.getString(4));
+		    	 System.out.printf(" %s %d원 \n", rset.getString(2),rset.getInt(3));
 		    	 item.name = rset.getString(2);
 		    	 item.price = rset.getInt(3);
 		    	
@@ -93,9 +93,3 @@ public class ExchangeMain {
      
 	
 	}
-
-	 
-	
-
-
-
